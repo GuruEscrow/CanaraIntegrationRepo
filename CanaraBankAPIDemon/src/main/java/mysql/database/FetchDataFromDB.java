@@ -13,7 +13,8 @@ import java.util.Map;
 public class FetchDataFromDB {
 
 	// JDBC URL, username, and password of the MySQL database
-	static final String jdbcUrl = "jdbc:mysql://3.109.189.244:3306/canarabank?useSSL=false";
+	static final String dataBase = "canarabank";
+	static final String jdbcUrl = "jdbc:mysql://3.109.189.244:3306/"+dataBase+"?useSSL=false";
 	static final String username = "Guruprasad";
 	static final String password = "MySql@#123";
 
